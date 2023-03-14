@@ -15,4 +15,6 @@ def contactpage(request):
 
 def productspage(request):
     return render(request, 'products.html')
+def indexpage(request):
+    return render(request, 'index.html')
 
